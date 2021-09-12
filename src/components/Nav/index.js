@@ -41,7 +41,7 @@ function Nav(props) {
                             currentCategory.name === category.name && !contactSelected && 'navActive'
                         }`} key={category.name}>
                         <span onClick = {() => {
-                            setCurrentCategory(category.name);
+                            setCurrentCategory(category);
                             setContactSelected(false)
                             }}
                         >
